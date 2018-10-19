@@ -1,0 +1,43 @@
+<div class="main-container">
+  <header class="header-6">
+    <div class="branding">
+      Zavatec Solutions
+    </div>
+    <div class="header-nav">
+      <a href="javascript://" class="active nav-link nav-text">Sistema de control de stock</a>
+    </div>
+    <div class="header-actions">
+      <a href="javascript://" class="nav-link nav-icon">
+        <clr-icon shape="cog"></clr-icon>
+      </a>
+    </div>
+  </header>
+  <div class="content-container">
+    <div class="content-area">
+      <router-outlet></router-outlet>
+    </div>
+    <nav class="sidenav">
+      <section class="sidenav-content">
+        <a routerLink="/listar" routerLinkActive="active" class="nav-link">
+          Listar Productos
+        </a>
+        <a routerLink="/ingresar" routerLinkActive="active" class="nav-link">
+          Ingresar Productos
+        </a>
+        <section class="nav-group collapsible">
+          <input id="tabexample1" type="checkbox">
+          <label for="tabexample1">Opciones</label>
+          <ul class="nav-list">
+            <li>
+              <a class="nav-link">Ayudar</a>
+            </li>
+            <li>
+              <a class="nav-link">Acerca de </a>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+    </nav>
+  </div>
+</div>
